@@ -124,10 +124,10 @@ public class Solution_118 {
         return cur;
     }
     //https://leetcode-cn.com/problems/pascals-triangle-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--28/
-    public List<Integer> getRow119_4(int rowIndex){
-
-
-    }
+//    public List<Integer> getRow119_4(int rowIndex){
+//
+//
+//    }
     /**
      * 打沙漏
      */

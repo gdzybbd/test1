@@ -104,4 +104,22 @@ public class Solution167 {
         return l;
     }
 
+    public int[] twoSum1(int[] numbers, int target) {
+        int l = 0,r=numbers.length-1;
+        while(l<r){
+            if(numbers[l]+numbers[r]<target){
+                l++;
+            }else if(numbers[l]+numbers[r]>target){
+                r--;
+            }else{
+                return new int[]{l+1,r+1};
+            }
+        }
+        return new int[2];
+    }
+
+    public int[] twoSum3(int[] numbers, int target) {
+        int l = 0,r=numbers.length-1;
+        return null;
+    }
 }
